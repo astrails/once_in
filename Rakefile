@@ -13,10 +13,10 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "once_in"
-  gem.homepage = "http://github.com/vitaly/once_in"
+  gem.homepage = "http://github.com/astrails/once_in"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Limit code block execution rate}
+  gem.description = %Q{Makes sure a block is executed at most once every X seconds. Globally or per thread.}
   gem.email = "vitaly@astrails.com"
   gem.authors = ["Vitaly Kushner"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
